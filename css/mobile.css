@@ -68,8 +68,37 @@
 	grid-row: 4;
 }
 
-/* Footer */
-#mainfooter {
+/* About */
+#about {
+	padding: 30px 0;
 	text-align: center;
-	padding: 30px;
+}
+
+#about p {
+	width: 100%;
+}
+
+/* Services */
+#services {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.services-flex {
+	flex-direction: column;
+	padding: 10px 0;
+}
+
+/* Contact */
+#contact {
+	padding: 30px 0;
+}
+
+#contact h1 {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#contact form {
+	width: 100%;
 }
